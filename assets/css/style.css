@@ -1,0 +1,72 @@
+/* Global */
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+header {
+  height: 60px;
+}
+
+main {
+  background-color: #004aff;
+}
+/* Layout */
+
+/* Tipography */
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #006aff;
+}
+
+a.link, a:active {
+  text-decoration: none;
+  color: #000000;
+}
+
+li:hover {
+  color: #006aff;
+}
+
+/* Menu */
+.logo {
+  line-height: 60px;
+}
+
+.logo > img {
+  width: 200px;
+}
+
+nav ul {
+  display: inline-block;
+  line-height: 60px;
+}
+
+nav ul li {
+  display: inline-block;
+  font-size: 1em;
+  font-weight: 500;
+  padding: 0 8px;
+}
+
+.dm-menu-hamburger {
+  line-height: 60px;
+}
+
+/* Button */
+.btn-border {
+  color: #006aff;
+  border: 1px solid #006aff;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.btn-border:hover {
+  background-color: #006aff;
+  color: #ffffff;
+}
