@@ -11,22 +11,30 @@ header {
 main {
 }
 /* Layout */
-
+.dm-wrapper {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 /* Tipography */
 h1 {
-  font-size: 3em;
+  font-size: 4em;
   font-weight: 500;
   color: #ffffff;
 }
-
+h3 {
+  text-align: center;
+}
 a {
   text-decoration: none;
-  color: #000000;
+  color: #006aff;
 }
 
 a:hover {
   text-decoration: none;
-  color: #006aff;
+  color: #000000;
 }
 
 a.link, a:active {
@@ -64,11 +72,48 @@ nav ul li {
   padding: 0 8px;
 }
 
+nav ul li a {
+  color: #000000;
+}
+
+nav ul li a:hover {
+  color: #006aff;
+}
+
 .dm-menu-hamburger {
   line-height: 60px;
 }
 
+/* Icons */
+.fa-chevron-right {
+  color: #006aff;
+}
+
 /* Button */
+.btn-form {
+  color: #ffffff;
+  background-color: #006aff;
+  border: 1px solid #006aff;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.btn-white {
+  color: gray;
+  background-color: #ffffff;
+  border: none;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  font-size: 1.2em;
+  box-shadow: 0 2px 2px 1px #777;
+  margin-bottom: 10px;
+}
+
 .btn-border {
   color: #006aff;
   border: 1px solid #006aff;
@@ -84,7 +129,7 @@ nav ul li {
 /* Slider */
 #slider {
   background-color: #004aff;
-  height: 60vh;
+  height: 600px;
 }
 
 .sfondo {
@@ -93,26 +138,43 @@ nav ul li {
   height: 600px;
   background-position: center;
   background-repeat: no-repeat;
+  position: relative;
 }
 
 #slider > p {
   color: #ffffff;
 }
 
+.item-description {
+  color: #ffffff;
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
 .box {
   background-color: #ffffff;
   border-radius: 5px;
-  padding: 10px;
+  padding: 15px;
 }
 
 .box > p {
   color: #000000;
+  text-align: center;
+}
+
+.box-slider {
+  width: 100%;
+  margin: 8px auto;
+  border: none;
+  border: 1px lightgray solid;
+  border-radius: 3px;
+  padding: 15px;
 }
 
 /* Partner */
 #partner {
   background-color: #f3f5f9;
-  height: 40vh;
+  height: 200px;
   line-height: 60px;
 }
 
