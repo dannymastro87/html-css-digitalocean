@@ -9,11 +9,16 @@ header {
 }
 
 main {
-  background-color: #004aff;
 }
 /* Layout */
 
 /* Tipography */
+h1 {
+  font-size: 3em;
+  font-weight: 500;
+  color: #ffffff;
+}
+
 a {
   text-decoration: none;
   color: #000000;
@@ -30,6 +35,11 @@ a.link, a:active {
 }
 
 li:hover {
+  color: #006aff;
+}
+
+/* Colors */
+.blue {
   color: #006aff;
 }
 
@@ -69,4 +79,45 @@ nav ul li {
 .btn-border:hover {
   background-color: #006aff;
   color: #ffffff;
+}
+
+/* Slider */
+#slider {
+  background-color: #004aff;
+  height: 60vh;
+}
+
+.sfondo {
+  background-image: url("/assets/img/bg-banner-home.jpg");
+  background-size: cover;
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#slider > p {
+  color: #ffffff;
+}
+
+.box {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.box > p {
+  color: #000000;
+}
+
+/* Partner */
+#partner {
+  background-color: #f3f5f9;
+  height: 40vh;
+  line-height: 60px;
+}
+
+#partner p {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #77829d;
 }
