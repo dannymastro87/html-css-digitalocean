@@ -229,11 +229,16 @@ nav ul li a:hover {
   color: #006aff;
 }
 
-#dashboard .fa-chevron-left, .fa-chevron-right {
+#dashboard .fa-angle-left, .fa-angle-right {
   font-size: 36px;
   color: #031c4e;
 }
 
-#dashboard .fa-chevron-left {
+#dashboard .fa-angle-left {
   color: #6f7b97;
+}
+
+/* Feature */
+#features {
+  margin: 40px 0;
 }
