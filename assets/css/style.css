@@ -11,6 +11,12 @@ header {
 main {
 }
 
+footer {
+  background-color: #031c4e;
+  color: #909aae;
+  padding: 40px 0;
+}
+
 /* Layout */
 .dm-wrapper {
   width: 100%;
@@ -112,7 +118,7 @@ nav ul li a:hover {
   margin-bottom: 10px;
 }
 
-.btn-white {
+.btn-google {
   color: gray;
   background-color: #ffffff;
   border: none;
@@ -135,6 +141,20 @@ nav ul li a:hover {
 .btn-border:hover {
   background-color: #006aff;
   color: #ffffff;
+}
+
+.btn-white {
+  color: #006aff;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.btn-white:hover {
+  color: #000000;
 }
 
 /* Slider */
@@ -241,4 +261,66 @@ nav ul li a:hover {
 /* Feature */
 #features {
   margin: 40px 0;
+}
+
+/* List-service */
+#list-service {
+  background: rgb(0,71,197);
+  background: radial-gradient(circle, rgba(0,71,197,1) 26%, rgba(0,34,157,1) 100%);
+  padding: 30px;
+}
+
+#list-service h3 {
+  color: #ffffff;
+}
+
+.list-service {
+  display: inline;
+  list-style-type: none;
+  color: #ffffff;
+  margin: 10px 0;
+}
+
+.box-service {
+  border-bottom: 1px solid #ffffff;
+  margin: 0 20px;
+  padding: 10px 0;
+}
+
+/* dashboard-2 */
+#dashboard-2 {
+  padding: 60px 0;
+}
+
+/* Cta */
+#cta {
+  background: rgb(0,71,197);
+  background: radial-gradient(circle, rgba(0,71,197,1) 26%, rgba(0,34,157,1) 100%);
+  padding: 60px;
+}
+
+#cta h3 {
+  color: #ffffff;
+}
+
+/* Footer */
+footer ul li {
+  list-style-type: none;
+  padding: 5px 0;
+}
+
+footer ul li:first-child {
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 1.1em;
+}
+
+.menu-footer {
+  display: inline;
+  padding: 5px;
+  font-size: 1.3em;
+}
+
+.logo-small {
+  padding: 10px;
 }
