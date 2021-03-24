@@ -58,6 +58,10 @@ li:hover {
   color: #006aff;
 }
 
+.gray {
+  background-color:  #f3f5f9;
+}
+
 /* Menu */
 .logo {
   line-height: 60px;
@@ -209,4 +213,27 @@ nav ul li a:hover {
 
 #service ul li:hover {
   color: #006aff;
+}
+
+/* Dashboard */
+#dashboard {
+  padding: 20px;
+}
+
+#dashboard img {
+  width: 60%;
+  padding: 20px;
+}
+
+.fa-circle {
+  color: #006aff;
+}
+
+#dashboard .fa-chevron-left, .fa-chevron-right {
+  font-size: 36px;
+  color: #031c4e;
+}
+
+#dashboard .fa-chevron-left {
+  color: #6f7b97;
 }
